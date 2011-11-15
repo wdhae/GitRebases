@@ -26,6 +26,7 @@ Partial Class Form1
         Me.TextBox1 = New System.Windows.Forms.TextBox
         Me.TextBox2 = New System.Windows.Forms.TextBox
         Me.Button2 = New System.Windows.Forms.Button
+        Me.Button3 = New System.Windows.Forms.Button
         Me.SuspendLayout()
         '
         'Button1
@@ -62,11 +63,21 @@ Partial Class Form1
         Me.Button2.Text = "Feature X"
         Me.Button2.UseVisualStyleBackColor = True
         '
+        'Button3
+        '
+        Me.Button3.Location = New System.Drawing.Point(11, 179)
+        Me.Button3.Name = "Button3"
+        Me.Button3.Size = New System.Drawing.Size(100, 23)
+        Me.Button3.TabIndex = 3
+        Me.Button3.Text = "Feature Y"
+        Me.Button3.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(284, 262)
+        Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.TextBox2)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.TextBox1)
@@ -81,5 +92,6 @@ Partial Class Form1
     Friend WithEvents TextBox1 As System.Windows.Forms.TextBox
     Friend WithEvents TextBox2 As System.Windows.Forms.TextBox
     Friend WithEvents Button2 As System.Windows.Forms.Button
+    Friend WithEvents Button3 As System.Windows.Forms.Button
 
 End Class
