@@ -5,6 +5,6 @@
     End Sub
 
     Private Sub Button2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button2.Click
-        MessageBox.Show("Feature X !")
+        MessageBox.Show(String.Format("Feature X for {0} ! ", TextBox1.Text))
     End Sub
 End Class
