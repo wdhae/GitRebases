@@ -8,6 +8,12 @@
         MessageBox.Show(String.Format("Feature X for {0} ! ", TextBox1.Text))
     End Sub
 
+<<<<<<< HEAD
     Private Sub Button3_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button3.Click
         MessageBox.Show(String.Format("Feature Y:" & Environment.NewLine() & "Text1 : {0} !!" & Environment.NewLine() & "Text2 : {1} !!!", TextBox1.Text, TextBox2.Text()))
+=======
+    Private Sub TextBox1_TextChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles TextBox1.TextChanged
+
+>>>>>>> added labels
     End Sub
+End Class
