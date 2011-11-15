@@ -3,4 +3,8 @@
     Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
         MessageBox.Show(String.Format("Hello, {0} , {1} !!", TextBox1.Text, TextBox2.Text()))
     End Sub
+
+    Private Sub Button2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button2.Click
+        MessageBox.Show("Feature X !")
+    End Sub
 End Class
